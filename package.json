@@ -1,0 +1,23 @@
+{
+  "name": "gcs-eslint-config",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "release": "changeset publish"
+  },
+  "keywords": [],
+  "author": "Guilherme Candido dos Santos",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "eslint": "^9.24.0",
+    "eslint-config-prettier": "^10.1.2",
+    "eslint-plugin-prettier": "^5.2.6",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.29.2"
+  }
+}
